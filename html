@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scentedself.studio | Luxury Hand-poured Candles</title>
+    <style>
+        /* Color Theme: Off-white and Brown */
+        :root {
+            --bg-color: #FAF9F6;
+            --primary-brown: #5C4033;
+            --accent-tan: #D2B48C;
+            --text-color: #3E2723;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: white;
+            border-bottom: 1px solid var(--accent-tan);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 3px;
+            color: var(--primary-brown);
+        }
+
+        header p {
+            font-style: italic;
+            color: var(--accent-tan);
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: var(--bg-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--primary-brown);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 40px 0;
+            border-bottom: 2px solid var(--accent-tan);
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #eee;
+            padding: 20px;
+            text-align: center;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+
+        .card:hover {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-brown);
+            margin: 10px 0;
+        }
+
+        .wa-btn {
+            display: inline-block;
+            background-color: #25D366; /* WhatsApp Green */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .footer {
+            background: var(--primary-brown);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Scentedself.studio</h1>
+    <p>Hand-poured Luxury Candles from Sialkot</p>
+</header>
+
+<nav>
+    <a href="#shop">Shop</a>
+    <a href="#deals">Special Deals</a>
+    <a href="#bulk">Bulk Orders</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="shop">
+    <h2 class="section-title">Daisy Collection</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Single Daisy Candle</h3>
+            <p>Hand-sculpted floral masterpiece.</p>
+            <div class="price">Rs. 180</div>
+            <a href="https://wa.me/923XXXXXXXXX?text=I%20want%20to%20order%20Single%20Daisy%20Candle" class="wa-btn">Order via WhatsApp</a>
+        </div>
+        <div class="card">
+            <h3>Box of 5 (Gift Set)</h3>
+            <p>Perfect for gifting loved ones.</p>
+            <div class="price">Rs. 750</div>
+            <a href="https://wa.me/923XXXXXXXXX" class="wa-btn">Order via WhatsApp</a>
+        </div>
+    </div>
+
+    <h2 class="section-title">Premium Jars & Bowls</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Amber Brown Jar</h3>
+            <p>Rich Vanilla scent in luxury amber glass.</p>
+            <div class="price">Rs. 2,500</div>
+            <a href="https://wa.me/923XXXXXXXXX" class="wa-btn">Order via WhatsApp</a>
+        </div>
+        <div class="card">
+            <h3>Cement Bowl with Daisy</h3>
+            <p>Industrial chic meets floral elegance.</p>
+            <div class="price">Rs. 1,150</div>
+            <a href="https://wa.me/923XXXXXXXXX" class="wa-btn">Order via WhatsApp</a>
+        </div>
+        <div class="card">
+            <h3>Bridal Dress Candle</h3>
+            <p>Timeless keepsake for bridal showers.</p>
+            <div class="price">Rs. 750</div>
+            <a href="https://wa.me/923XXXXXXXXX" class="wa-btn">Order via WhatsApp</a>
+        </div>
+    </div>
+
+    <h2 class="section-title" id="deals">Special Birthday Deals</h2>
+    <div class="grid">
+        <div class="card" style="border: 2px solid var(--accent-tan);">
+            <h3>Bday Hamper (Grand Deal)</h3>
+            <p>1 Jar, 1 Daisy Flower, 2 Mini Bubbles</p>
+            <div class="price">Rs. 3,079</div>
+            <a href="https://wa.me/923XXXXXXXXX" class="wa-btn">Claim Deal</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer" id="contact">
+    <h3>Scentedself.studio</h3>
+    <p>Sialkot, Punjab, Pakistan</p>
+    <p>Custom Name Sticker: Rs. 100 | Color Change: Rs. 50</p>
+    <p>© 2026 Al-Rafay. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
